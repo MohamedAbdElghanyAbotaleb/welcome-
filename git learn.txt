@@ -1,0 +1,39 @@
+some commands 
+
+git clone (link of github repo)                           // to download the github repo to my local pc 
+  
+git init 
+
+git add .   #   git add filename                         // to make file tracking (staging stage) 
+
+git commit .  -m "message" // to make files in commit stage 
+
+git remote add origin  (link of github repo)            // to make origin refer to online repo 
+
+git remote set-url origin (link of github)             // to update the remote of new repo online repo 
+
+git remote -v                                           // to know the current origin ( user and name) 
+
+git push origin (branch name)                           // to push the files in commit stage to online repo 
+
+git tag v2.2.0                                          // create tag this tag will be for the last commit 
+
+git push orgin v2.2.0                                  // push this tag in origin 
+
+git tag v2.2.1                                         // make another tag 
+
+git commit file.txt -m "from file"   
+
+git push orgin main                                    // this commit will appear to all tags in branch( branch or master) if we 
+need to sperate it we need to make two tags in diffrent two rpos 
+
+
+
+git tag -l "v1.*"                                     // list all tags with version one 
+
+git push origin --delete v1.0                        // delete tag from repo on github 
+
+git tag                                              // give me all tags
+
+
+
